@@ -10,7 +10,7 @@
 
 searching specific word and arranging some numbers
 
-  -Jersom López Serventi
+  -Jersom LÃ³pez Serventi
 */
 
 #include <stdio.h>
@@ -42,7 +42,7 @@ int main()
 
       clock_t begin = clock();////start timer for processing data
         ////Remove the surrounding quotation marks
-        ////These nested Loops are for removing the data that we are not interesting in, just keeping strings with the data we want (which have ":" and "porALPHA"
+        ////These nested Loops are for removing the data that we are not interesting in, just keeping strings with the data we want (which have ":" and "WORD TO SEARCH"
         while(fgets(buf, 512, Input) != NULL)
         {
             i=0;
