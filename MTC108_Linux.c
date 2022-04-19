@@ -13,7 +13,7 @@
 #include <stdbool.h>   // added
 #define  Max_Calib              1048575
 #define  T0                     0.000000002
-#define  MTC_Port               2108
+#define  MTC_Port               0000
 #define  IP_Address             "00.123.4.56" //real IP address of the counter goes here
 #define  T_DATAbits             0x3FFF00000000
 #define  M_COUNTER1bits         0xFFFF000000000000
